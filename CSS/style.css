@@ -1,0 +1,148 @@
+#fondDeJeu {
+    background-image: url(../images/Bricks_bg.jpg);
+    text-align: center;    
+}
+
+/* Div principal*/
+#gameDiv{
+    width:80%;
+	margin:auto;
+	text-align: center; 
+    margin-top: -1200px;
+}
+
+#canevasGame{
+    width: 1100px;
+    height: 720px; 
+}
+
+
+/* div Canevas de jeu*/
+#canvasDiv{
+    margin-top: 90px;
+    float: left;
+        
+}
+  
+  /*  Affichage score et nombre de parties restante */
+
+#levelGame{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 55px;
+    font-size: 38px;
+} 
+
+#levelValue{
+    text-align: center;
+    font-size: 45px;
+    font-family: fantasy;
+    color: rgb(165, 250, 38);
+}
+  
+#scoreLives{
+    
+    width: auto;
+    height: auto;
+    margin-top: 120px;
+    margin-left:auto;    
+    float: left;   
+}
+#livesQtty{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 55px;
+    font-size: 38px;
+}
+
+
+#totalPoints{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 55px;
+    font-size: 38px;
+}
+
+#affScore {
+    text-align: center;
+    font-size: 45px;
+    font-family: fantasy;
+    color: rgb(165, 250, 38);
+}
+
+#canvasScore{
+    height: 102px;
+    width: 268px;
+    margin-left: 20px;
+}
+
+
+/* Start botton */
+#startButton{
+    width: 444px;
+    height: 104px;
+    background-color: rgb(50, 121, 32);
+    background-image: url("../images/btnStart.png");
+}
+
+#divButton {
+    position: absolute;
+    margin-left: 328px;
+    margin-top: -600px;
+    
+}
+
+/* loading div*/
+
+#container {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: -650px;
+}
+  
+@keyframes animation {
+0% {
+    stroke-dasharray: 1 98;
+    stroke-dashoffset: -105;
+    }
+50% {
+    stroke-dasharray: 80 10;
+    stroke-dashoffset: -160;
+    }
+100% {
+    stroke-dasharray: 1 98;
+    stroke-dashoffset: -300;
+    }
+}
+  
+#spinner {
+    transform-origin: center;
+    animation-name: animation;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier;
+    animation-iteration-count: infinite;
+}
+
+
+/* Div Animation eyes, smile(HéHéHé) and danBreakoid*/
+
+#divEyes{
+    position: absolute;
+    margin: auto;
+    margin-left: 175px;
+    margin-top: -1000px;
+    background-image: url("../images/redeyes.png");
+    width: 775px;
+    height: 294px;
+}
+
+#divDan{
+    position: absolute;
+    margin: auto;
+    margin-left: 120px;
+    margin-top: -1300px;
+    background-image: url("../images/danbreakoid.png");
+    width: 897px;
+    height: 178px;
+}
