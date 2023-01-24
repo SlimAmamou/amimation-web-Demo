@@ -1,2 +1,2 @@
-# amimation-web-Demo
+# animation-web-Demo
 danbreakoid(game)
